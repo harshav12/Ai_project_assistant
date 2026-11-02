@@ -1,0 +1,114 @@
+Current Architecture
+
+                         User
+                           │
+                           ▼
+                  Coordinator Agent
+                           │
+                ┌──────────┴──────────┐
+                ▼                     ▼
+         Memory / Context       Knowledge Base
+                │                     │
+                ▼                     ▼
+       Dynamic Agent Selection   RAG Retrieval
+                │                     │
+                ▼                     │
+       ┌────────┼─────────┐           │
+       ▼        ▼         ▼           │
+    Project   Task     Employee       │
+     Agent    Agent     Agent         │
+       │        │         │           │
+       └────────┴─────────┴───────────┘
+                           │
+                           ▼
+                    Tool Selection
+                           │
+                           ▼
+                    Guardrail Layer
+                           │
+             ┌─────────────┼─────────────┐
+             ▼             ▼             ▼
+         Validation    Permissions    Safe Execution
+                           │
+                           ▼
+                      Tool Execution
+                           │
+                           ▼
+                     Tool Result
+                           │
+                           ▼
+                  Agent Observes Result
+                           │
+                           ▼
+                   Continue / Replan /
+                         Finish
+
+Current Project structure
+
+AI-Project-Management-Agent/
+│
+├── .streamlit/
+│
+├── Knowledge_base/
+│
+├── Memory/
+│   ├── user_memory.json
+│   └── users.json
+│
+├── my_agent/
+│   ├── Coordinator_agent.py
+│   ├── project_agent.py
+│   ├── task_agent.py
+│   ├── employee_agent.py
+│   │
+│   ├── database.py
+│   ├── rag.py
+│   ├── rag_tools.py
+│   ├── memory_tools.py
+│   ├── permissions.py
+│   ├── tools_new.py
+│   │
+│   ├── employees.json
+│   ├── roles.json
+│   ├── projects.json
+│   ├── tasks.json
+│   └── project_updates.json
+│
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── Readme.text
+
+
+
+
+# Document upload and rag structure
+
+
+                 User Uploads Documents
+                           │
+                           ▼
+                 PDF / TXT / DOCX
+                           │
+                ┌──────────┴──────────┐
+                ▼                     ▼
+         Original Documents      Text Extraction
+                │                     │
+                ▼                     ▼
+         Neon PostgreSQL        Text Chunking
+                │                     │
+                │                     ▼
+                │              ChromaDB Indexing
+                │                     │
+                │                     ▼
+                │              Semantic Retrieval
+                │                     │
+                └──────────┬──────────┘
+                           ▼
+                    User Asks Question
+                           │
+                           ▼
+                   Relevant Documents
+                           │
+                           ▼
+                    AI Agent Response

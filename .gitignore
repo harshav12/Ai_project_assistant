@@ -1,0 +1,12 @@
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+chroma_db/
+Data/
+Data_new/
+/Scripts
+/Testfiles/
+/api.py
+#Ignore all Jupyter notebooks.
+*.ipynb

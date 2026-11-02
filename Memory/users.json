@@ -1,0 +1,30 @@
+[
+  {
+    "user_id": "user1",
+    "name": "Test User 1",
+    "role": "user1",
+    "department": "Development Test",
+    "status": "active"
+  },
+  {
+    "user_id": "user2",
+    "name": "Test User 2",
+    "role": "user2",
+    "department": "Development Test",
+    "status": "active"
+  },
+  {
+    "user_id": "user3",
+    "name": "Test User 3",
+    "role": "user3",
+    "department": "Development Test",
+    "status": "active"
+  },
+  {
+    "user_id": "user4",
+    "name": "Test User 4",
+    "role": "user4",
+    "department": "Development Test",
+    "status": "active"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "memory_id": "M001",
+    "user_id": "user1",
+    "memory_type": "preference",
+    "subject_type": "project",
+    "subject_id": "6620efb213599833dbed5b3e",
+    "value": "TEST DATA ONLY: prioritize this Workspace in examples.",
+    "status": "active",
+    "updated_at": "2026-10-24"
+  },
+  {
+    "memory_id": "M004",
+    "user_id": "user2",
+    "memory_type": "conversation_context",
+    "subject_type": "project",
+    "subject_id": "67455e7fa271efc979a50ba3",
+    "value": "TEST DATA ONLY: most recently discussed Workspace.",
+    "status": "active",
+    "updated_at": "2026-10-24"
+  },
+  {
+    "memory_id": "M005",
+    "user_id": "user3",
+    "memory_type": "preference",
+    "subject_type": "project",
+    "subject_id": "64917653172f03dbb1e05dd9",
+    "value": "TEST DATA ONLY: prioritize this Workspace.",
+    "status": "active",
+    "updated_at": "2026-10-24"
+  },
+  {
+    "memory_id": "M007",
+    "user_id": "user4",
+    "memory_type": "preference",
+    "subject_type": "project",
+    "subject_id": "6620efb213599833dbed5b3e",
+    "value": "TEST DATA ONLY: do not prioritize this Workspace.",
+    "status": "active",
+    "updated_at": "2026-10-24"
+  },
+  {
+    "memory_id": "M008",
+    "user_id": "user4",
+    "memory_type": "conversation_context",
+    "subject_type": "project",
+    "subject_id": "64917653172f03dbb1e05dd9",
+    "value": "TEST DATA ONLY: most recently discussed Workspace.",
+    "status": "active",
+    "updated_at": "2026-10-24"
+  }
+]

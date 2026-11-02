@@ -1,0 +1,1644 @@
+[
+  {
+    "workspace_id": "6620efb213599833dbed5b3e",
+    "name": "Corporate Head Quarters",
+    "description": "il9MbZWnKTngr5GzikZF53sRszhDUNRe9CnWlRMtlTM6oOP81djf3oGJticKy1wSI1hWJwx1LrC7ot2UxO14yIM4SIqCut3LRW8YSpgV6yWDQ8BVygpPpOh2QP+lTeH/IiwObgOyEblvdJrfVmMyNUF7pDFnuRvPk3Gj8XcNIUNVQdweiKWz3DzEWQbG9FqMoNKqlMh4xgUYmOVctcm5lFNIckhFagt2FxMHtZ5/avULVKxlddihuuq8vHcrQC+bEhlWrdmoEHu9wdlvWG3NAGfiWYagiqo6VqkCB6A/DjEqVq2+RquQQGs7gcz+htw25IeCGpK2tOvBgkC4E4WsAtx8Kf1G2w72E0SOgZekx1/qpEfSHh6lDvWCA34nfEp2ssDaOxhsrX6sx6CTATRMpc17AI0fgGJbZSOQR2trdtJ/CvkHGHf0DghdItIH5wLYp1rh94fZ75E0OvlesG6Km01cWT7Of9ADj6F7kAI3j2QAa2PC/dKWr8PR8n0EXH0PyL9XMEF3Q8OLhoiI0e0HuE9AqXK/ymwzQhHPv3wewEwIc+H/ggN0y2oGKZHiQk",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2023-04-30T18:30:00.000Z",
+    "end_date": "2027-10-31T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "product_owner_ids": [
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "in_charge_resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [
+      "karthik.adari@outlook.com",
+      "sainewtest90@gmail.com"
+    ],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2025-11-17T17:53:15.587Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-29T08:32:38.497Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6620efb213599833dbed5b3e/bef48905-25c9-4358-9375-ce19bfb78d7f_notification-and-alert-phrased.docx",
+        "approval_status": null
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6620efb213599833dbed5b3e/9e75ccd0-605b-480d-97b1-1f70d3f906e0_ResourceOverviewReport-(25).pdf",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "67455e7fa271efc979a50ba3",
+    "name": "Sydney Corporate Division",
+    "description": "Sydney Corporate Divisions collaborates divisions like Consumer & Business Banking, Westpac Institutional Bank, St. George Banking Group, and BT Financial Group",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2024-11-25T18:30:00.000Z",
+    "end_date": "2025-11-29T18:29:59.000Z",
+    "resource_ids": [
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6788ab31ce364a51dee0b252",
+    "name": "France Corporation",
+    "description": "France Corporation handles the Marketing Brands like Zara, Steve Madden and Calvin Kelvin",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2024-12-31T18:30:00.000Z",
+    "end_date": "2025-12-31T18:29:59.000Z",
+    "resource_ids": [
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "62dd9c1b-9511-4dcc-b071-31dec7f1138d",
+      "e125746a-c125-4ff0-96f0-5d94ebc4d449",
+      "119050f1-5ca0-4a27-9e58-4609d733e44c",
+      "cadbe8eb-99e1-4814-84fe-acb07f6f4375",
+      "76772d03-a33b-41d0-9012-6b80c2f4ecf5",
+      "e238f315-3501-46e9-8227-546e1f53cf1f"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "team_ids": [
+      "68dcd7b3f8435bf2ced5b8b3",
+      "68ef33bf453f510ab9582cb3"
+    ],
+    "stakeholder_emails": [
+      "karthik.adari@outlook.com"
+    ],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "64917653172f03dbb1e05dd9",
+    "name": "California Division",
+    "description": "The California Division is at the forefront of Project Integrations, managing a diverse portfolio of initiatives that drive technological advancement and innovation. With a strategic focus on integrating complex systems and processes, the division ensures seamless operations and delivery of services across various sectors. This commitment to excellence in project integration positions California as a leader in the field, fostering a dynamics",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2023-07-14T18:30:00.000Z",
+    "end_date": "2026-12-31T18:29:59.000Z",
+    "resource_ids": [
+      "ff845606-399d-4ba9-ac00-1fa6a02f2a0a",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "2ad27543-49e2-4cb1-97b2-2ec8e73fc435",
+      "132d1b58-3836-4460-9ce0-f0a17ef42073",
+      "e4fdc0a3-ad1b-4dac-98ee-c8af2391b344",
+      "fffcf64d-9459-4ba5-a1fa-462eaaba4e99",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "280224c2-0908-4a3b-b135-c34665d8f0ff",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "270065db-2a8e-489d-9cb2-87302b4fdf71",
+      "df796e4b-040d-49c9-b803-26d4fb25c2bb",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "5b167846-f6bd-4067-a0d3-4305816f7063",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "62dd9c1b-9511-4dcc-b071-31dec7f1138d",
+      "aa9438c7-b8a5-48d3-a69e-c29c30792ae0",
+      "106808bc-dab1-4350-8bb6-2bf5a65966ff",
+      "c7677116-322e-4586-98c1-84b641017ab1",
+      "cf03c244-5d3a-416b-9b77-b2a4af2657ce",
+      "c6b4762c-6fda-407e-a08e-df7ca284fe98",
+      "c8381355-1c71-4d9a-a4bc-c8b3866c7b47",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df",
+      "dff24b1f-e9a1-4a8f-bc15-4fcc4157a010",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "153dedbc-a705-411a-953b-c532f824c70a",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "dad04a21-8009-4b1a-964c-4a5ebec5e8e2",
+      "b708fe61-4c31-4293-b086-4f35122d4a1f",
+      "49d2b662-d2bd-4516-a122-0a12271074a1",
+      "77fae57a-9e06-44e3-8e9f-42bdde3cecae"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "team_ids": [
+      "6a841cf60a6de571fdd48368",
+      "6a841d3f0a6de571fdd48369"
+    ],
+    "stakeholder_emails": [
+      "steven99.mani@gmail.com"
+    ],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2025-11-18T12:18:08.926Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-24T19:03:48.069Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-30T11:06:18.752Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-64917653172f03dbb1e05dd9/940f8c12-4055-4eb6-834a-a4aa137d1506_SRSOtpbasedtwofactAuth.pdf",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-64917653172f03dbb1e05dd9/54f9492a-2ce3-48dd-abb8-810ae5a8b5a5_Final-Issues-Pending-for-Fixes.pdf",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Melbourne division",
+    "description": "Melbourne is the ideal location \n\nIt has an established, diverse and educated workforce, world-class universities and strong government support. Our startup community is dynamic and collaborative with a strong social purpose.",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2025-01-02T18:30:00.000Z",
+    "end_date": "2025-09-30T18:29:59.000Z",
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c"
+    ],
+    "product_owner_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "in_charge_resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [
+      "karthik.adari@outlook.com"
+    ],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-01-05T04:50:23.526Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-21T10:08:21.223Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6777b0c0ed790364d9ebf2e3/7efeeb41-d7dc-4eb3-ad89-8a65f6f4c440_AndroidAppSRSDocforTravelApp.pdf",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6777b0c0ed790364d9ebf2e3/4884328f-bedd-4ed6-b752-e2e8e93b8e6d_Untitled-document.docx",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "67d029023b3fa959eff6bf4d",
+    "name": "Canada Division",
+    "description": "This workspace is dedicated to the Canada Division's Executive Marketing function, serving as the central hub for strategic marketing leadership and client engagement. It facilitates collaborative planning and execution of high-impact marketing strategies tailored to meet the unique business goals and industry demands of our clients. The workspace supports data-driven decision-making, integrated campaign management, and real-time performance analysis to maximize client ROI and brand growth. Here",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "On Hold",
+    "start_date": "2024-12-31T18:30:00.000Z",
+    "end_date": "2026-03-31T18:29:59.000Z",
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "dad04a21-8009-4b1a-964c-4a5ebec5e8e2",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [
+      "68ef302f453f510ab9582c65",
+      "6a06ae264d5703cdff57f666"
+    ],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "shaun.murphy7697@outlook.com",
+        "changed_on": "2026-01-10T14:32:32.633Z"
+      },
+      {
+        "changed_by_email": "shaun.murphy7697@outlook.com",
+        "changed_on": "2026-01-10T14:35:31.064Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-28T11:54:52.680Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-67d029023b3fa959eff6bf4d/529e2167-47f9-4144-89b2-0ce253c689f8_SRSforTravelApp.pdf",
+        "approval_status": null
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-67d029023b3fa959eff6bf4d/4cca9d45-4dd5-4aad-889e-90b447642435_delivery_agent_panel_srs.pdf",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "68f350652b4ffbf6508e3c5c",
+    "name": "Adventure Boulders Club Pvt. Ltd",
+    "description": "Adventure Boulders Club is an outdoor adventure and sports center located in Rushikonda and Sagar Nagar, Visakhapatnam, Andhra Pradesh. It offers activities like parasailing, quad biking, paintball, zorbing, and trekking.Activities and ServicesParasailing: High-flying coastal rides near Rushikonda Beach.Paintball: Tactical group combat games.Land Sports: Quad biking, zorbing, and bouldering.Trekking: Guided outdoor nature and hill treks",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2025-10-05T18:30:00.000Z",
+    "end_date": "2026-11-30T18:29:59.000Z",
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "c5c036d3-cc16-4550-b58a-47d26ab3822b",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "dad04a21-8009-4b1a-964c-4a5ebec5e8e2",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [
+      "allen.jhonson7686@outlook.com",
+      "karthik.adari@outlook.com"
+    ],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2025-11-18T12:06:31.644Z"
+      },
+      {
+        "changed_by_email": "shaun.murphy7697@outlook.com",
+        "changed_on": "2026-02-09T14:06:15.078Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-02-09T14:06:15.078Z"
+      },
+      {
+        "changed_by_email": "shaun.murphy7697@outlook.com",
+        "changed_on": "2026-04-15T16:38:27.665Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-04-16T05:01:48.133Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-04-24T06:27:30.595Z"
+      },
+      {
+        "changed_by_email": "aaron.wright5657@gmail.com",
+        "changed_on": "2026-05-22T07:45:25.064Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-22T07:45:25.064Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-28T13:17:16.188Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-29T08:33:08.759Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-06-02T07:11:08.485Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-06-02T14:49:12.989Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-06-02T15:18:04.843Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-06-03T07:14:16.746Z"
+      },
+      {
+        "changed_by_email": "allen.jhonson7686@outlook.com",
+        "changed_on": "2026-08-25T06:52:33.511Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-08-25T06:52:33.511Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-68f350652b4ffbf6508e3c5c/7554ef23-2fe2-4a82-83f1-2dcfcda917a4_Sample-Marketing_SOW.doc",
+        "approval_status": null
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-68f350652b4ffbf6508e3c5c/bc6c1086-2144-42c7-b5e8-b4f248b87831_Sample-Marketing_SOW.doc",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "690b8dd1b068c20d1d4b31bb",
+    "name": "Procurement & Inventory",
+    "description": "The Procurement & Inventory workspace is dedicated to managing the full lifecycle of purchasing, vendor coordination, and stock control across the organization. It centralizes all procurement requests, approval workflows, inventory tracking, and audit documentation to ensure operational efficiency and resource availability",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2025-11-04T18:30:00.000Z",
+    "end_date": "2026-06-30T18:29:59.000Z",
+    "resource_ids": [
+      "c7677116-322e-4586-98c1-84b641017ab1",
+      "76772d03-a33b-41d0-9012-6b80c2f4ecf5",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "76772d03-a33b-41d0-9012-6b80c2f4ecf5"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-05-28T10:00:42.021Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-690b8dd1b068c20d1d4b31bb/144b869d-69dd-4728-8a4a-8466b699dfb4_procurment-srs.pdf",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-690b8dd1b068c20d1d4b31bb/be468cfc-b023-492f-9b44-c8c45a9ee9af_SOC-Overview-Document.pdf",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "691ae7481e347234c6d51091",
+    "name": "Financial Tracking",
+    "description": "An Angular-based front-end project for recruitment, to browse and save resumes from a job portal, match skills against a job description, schedule interviews (technical and non-technical), and enable joining formalities upon selection.",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2025-11-16T18:30:00.000Z",
+    "end_date": "2026-03-31T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "e125746a-c125-4ff0-96f0-5d94ebc4d449",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "153dedbc-a705-411a-953b-c532f824c70a",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "team_ids": [
+      "693c672ee5168374297494e1"
+    ],
+    "stakeholder_emails": [
+      "karthik.adari@outlook.com"
+    ],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "69995de03f431f61f891a187",
+    "name": "Railway project",
+    "description": "Railway project",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-02-20T18:30:00.000Z",
+    "end_date": "2026-12-03T18:29:59.000Z",
+    "resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [
+      "karthik.adari@outlook.com"
+    ],
+    "amendment_history": [
+      {
+        "changed_by_email": "carlosslim.99@zohomail.in",
+        "changed_on": "2026-07-22T09:30:41.749Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-69995de03f431f61f891a187/2fed2112-3652-43d0-acd3-305d01038b49_Railway_Notification_Application_SRS.pdf",
+        "approval_status": null
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.us-east-2.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-69995de03f431f61f891a187/8bb5ff2c-a983-4969-9c07-d430fe67e162_taskreports-%2861%29.pdf?X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGUaCXVzLWVhc3QtMiJHMEUCIGlVeUihNl5DYPeQIHFZxs6aDTbKJP9sYrMxPN0Fil8aAiEAgkKTBt4mt3wUSa0YyORHxumnsz%2Fwy2I3u1%2B8%2FhQd%2F5IqzQMILhAAGgw1MjU5OTk4OTczMzEiDG%2FK%2FGSiJncGneuCKiqqA4cdMIQGXsbZtriYroE88S3DHjQG%2FPj7gtFJyC9pe6IZyxx6BE5qDzBqBrsm%2FmmBNF2mV5XWL%2BMLr%2F8J7Kw0ni9RrKcikDpf0rMgv%2F9mtvjiZ8xITWxSx0DoTvD55MMzFhpHYAAZvTbk2tzfjodu9axDyl%2FqfYLrEACqPJo1JxpUtAr4%2BVc64sCN%2BN4q1FM1NZ6kLciZyEiggmC2cPgW1E%2Bvpxcdg4qSOBXrinVE%2FvXZG%2BUwJtFfEEzJ5MteV9IIbh2AvXHrago2ugPCHfrkA9ws9%2BrGXIJAGA1UqdUPdToshQBtDC4g2oBFw3FRC5VlX%2BxR8wF25QC0ICFJS%2B7FNzsTcrU6SSWHNPLWDcYeFwyhmW3T9yI9l615r6ecQg23YOw8JMnIJt2CvtYYRWiZ7LR54pTYvmV1FD1QKa0Ph3UUQlCO0y2NEjiUH4%2FCuLoFEisOoZ0FFU%2BkQQjgHinGWVceHbDL2MRbp2YMBLNZy%2FkPmAip0PcvEl3hnlO9B4KW4cEJe2DrQPfdwZorS3CTbciP7MS5LlTThzG3JYAh4ok2%2FCogok0cdOKFQTCr4%2BfVBjqcAZZNZqaHH2U0ITwQ7tQyIxxuQhH85FKvWVNa5KCZEh1IJFgL3x5zyf0x4cN0%2B5GTy65SkZGkHbNeFFHGEwpEy%2FUpZcKvtnrHmehpICxy1EHxzWhWMoSh8wp02bJNkHceHCCay4JXUd7xdC%2FHJbI5RZ0XWdAkNhkY0EEyZFipdWCvKR6uWotRVPRnEyBool%2BljhO%2Fk5xnkJi6Q34Z4w%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAXU6AJPLZY6KQLSNY%2F20260928%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T053802Z&X-Amz-SignedHeaders=host&X-Amz-Signature=498e3978ddcdd345a0b72cc8e674717161897f4f4b1cf76669ab66904dedea24",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a226aede2689cbcc1c8ec69",
+    "name": "Company Operations",
+    "description": "Company Operations",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "e125746a-c125-4ff0-96f0-5d94ebc4d449",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "dff24b1f-e9a1-4a8f-bc15-4fcc4157a010",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "49d2b662-d2bd-4516-a122-0a12271074a1",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "76772d03-a33b-41d0-9012-6b80c2f4ecf5",
+      "153dedbc-a705-411a-953b-c532f824c70a"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "in_charge_resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a3431d5c77fb169bd6aa1a3",
+    "name": "Max Capacity Check",
+    "description": "Max Capacity Check",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Closed",
+    "start_date": "2026-06-17T18:30:00.000Z",
+    "end_date": "2026-06-30T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a34e988c77fb169bd6ab847",
+    "name": "Verify IT workspace approval updates",
+    "description": "Verify IT workspace approval updates",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-06-18T18:30:00.000Z",
+    "end_date": "2026-08-20T18:29:59.000Z",
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a34ee62c77fb169bd6abc5a",
+    "name": "Invalid Document Upload",
+    "description": "Invalid Document Upload",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-06-18T18:30:00.000Z",
+    "end_date": "2026-07-31T18:29:59.000Z",
+    "resource_ids": [],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a34fc0bc77fb169bd6ac115",
+    "name": "Invalid Document Upload1",
+    "description": "Invalid Document Upload",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-06-18T18:30:00.000Z",
+    "end_date": "2026-07-31T18:29:59.000Z",
+    "resource_ids": [],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a391fe39c6e2c1b4d298b1c",
+    "name": "Max Cap with 4",
+    "description": "Max Cap with 4",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a474523825c657376cd33da",
+    "name": "Charan-Test-Wkspace",
+    "description": "NA",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-03T05:14:14.531Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a474523825c657376cd33da/926357bf-b5f2-472a-b2c6-a7fc3cd277b9_Simple_SRS_Template.docx",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a474a55825c657376cd3c33",
+    "name": "Charan-test-wkspace",
+    "description": "desc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-03T05:36:23.221Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a474a55825c657376cd3c33/d76c57a3-5170-4c8c-bf8f-e6dcfd35b006_Simple_SRS_Template.docx",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a474d83825c657376cd3c34",
+    "name": "Charan-test-3",
+    "description": "desc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-03T05:49:56.410Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a474d83825c657376cd3c34/b94973be-2db9-4dcc-a753-f3548bbe74b9_Feature_SRS_AI_Project_Breakdown-(1).docx",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a475451825c657376cd4130",
+    "name": "Charan-Demo",
+    "description": "desc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Under Review",
+    "start_date": null,
+    "end_date": "2026-10-30T18:29:59.000Z",
+    "resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-03T06:19:00.219Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a475451825c657376cd4130/806d4fc5-7ef7-4c7c-af5f-e808840acfed_Simple_SRS_Template.docx",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a475451825c657376cd4130/bcc6afd7-09b2-44b0-a300-102bf830326e_Marketing_Workspace_Space_Section_SOW_v1.0.docx",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a4755e6825c657376cd425d",
+    "name": "Charn-demo-3",
+    "description": "desc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "product_owner_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-03T06:25:43.568Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a4755e6825c657376cd425d/9345bbe9-143c-4344-b744-96739e3e0995_Simple_SRS_Template.docx",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a475588825c657376cd425c",
+    "name": "Charan-demo-2",
+    "description": "desc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-03T06:24:09.534Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a475588825c657376cd425c/abc9c099-cc65-43bc-a5f1-140f1e15cee0_Simple_SRS_Template.docx",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a68ea6c4803d6ebc640044f",
+    "name": "Demo Workspace",
+    "description": "JvfE9OkZTVkamrAgIk2zwQoatadQORmXDo41Egwx03+KOhv/jrf6e7uFv2tr8eTRhqdpZJlxx2ePEL5dUEMRfyrJn31V6eN0E6cCuWN8trdoXQLDULVnUVnK740lzL/4KGjltvHENdj02paN3bqIy8UrmVnnLvyQ6ZFeDO88MgCOiNtFRAq99qQ2zCzB54bagf/7YA1fLhNixVP0VZarQ9yDLJPkGZhTg75ujM682CD128bhR4OtgxCGDhQhUMWA5aVY7FVST28lO1CktFzS6MGIyafxQaEIP9fKjuIQ7E0=",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-07-27T18:30:00.000Z",
+    "end_date": "2026-08-31T18:29:59.999Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-28T17:44:16.029Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-07-28T17:44:18.094Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a68ea6c4803d6ebc640044f/5dbbbe2b-3273-4aee-a528-b75073ef0a6a_32720f51-6297-4ecb-9ad5-227eefd9abd0_SRSforTravelApp.pdf",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a68ea6c4803d6ebc640044f/9521c837-ae99-43d3-bee8-2902c728b3e5_32720f51-6297-4ecb-9ad5-227eefd9abd0_SRSforTravelApp.pdf",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a797fd6ff78cd2192027841",
+    "name": "Marketing",
+    "description": "The project involves designing and implementing a structured Marketing Workspace consisting of Spaces and Sections to centralize marketing operations and provide a standardized framework for campaign and content management.",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-09T18:30:00.000Z",
+    "end_date": "2026-09-30T18:29:59.000Z",
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3"
+    ],
+    "product_owner_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a8541b23c2eee2204aed1ea",
+    "name": "Company Workspace",
+    "description": "Company Workspace",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-17T18:30:00.000Z",
+    "end_date": "2026-09-30T18:29:59.000Z",
+    "resource_ids": [],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a85a52bd648e0acc4843bd4",
+    "name": "ABCDE",
+    "description": "ABC",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-03-31T18:30:00.000Z",
+    "end_date": "2026-10-15T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "6d11ff02-1571-4f95-a6aa-ef114773a8bb"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-08-19T12:44:29.100Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-08-19T12:44:29.823Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a85a52bd648e0acc4843bd4/e0dad72b-b0c9-42a5-b2d8-80cc5d1d1771_Railway_Notification_Application_SRS.pdf",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a85a52bd648e0acc4843bd4/951f8fa1-1696-43e3-b9b8-ebaee95c99cd_Railway_Notification_Application_SOW.pdf",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a87f9e9fd687b1fc3b38bde",
+    "name": "Workspace with Po product owner",
+    "description": "Workspace po",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-20T18:30:00.000Z",
+    "end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "6d11ff02-1571-4f95-a6aa-ef114773a8bb"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-08-21T07:10:35.564Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a87f9e9fd687b1fc3b38bde/d978fb8f-ace8-402d-a1cd-66c89e602272_Railway_Notification_Application_SRS.pdf",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a8d4432251777b1436fc1b0",
+    "name": "Workspace basic with po",
+    "description": "Workspace basic with po",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-24T18:30:00.000Z",
+    "end_date": "2027-08-29T18:29:59.000Z",
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a8d45f6251777b1436fc29b",
+    "name": "Basic workspace reuploading documents",
+    "description": "Basic workspace reuploading documents",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-24T18:30:00.000Z",
+    "end_date": "2027-08-28T18:29:59.000Z",
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a8d4770251777b1436fc5dd",
+    "name": "Only Srs",
+    "description": "Srs",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-24T18:30:00.000Z",
+    "end_date": null,
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-08-25T07:42:41.145Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a8d4770251777b1436fc5dd/e488dca0-735d-4beb-a845-e509002514fb_Electronic_Interlocking_System_SRS.pdf",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "6a8d548d251777b1436fcac9",
+    "name": "Existing user doc upload",
+    "description": "wd",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a8dd7a1ca2c383dfe5c143c",
+    "name": "Demo workspace",
+    "description": "Presently currently no disturb.",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-08-24T18:30:00.000Z",
+    "end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "in_charge_resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6a8fd91ca45bc6c753fe8b8b",
+    "name": "Uploading documents",
+    "description": "upload",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-08-27T06:28:46.556Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6a8fd91ca45bc6c753fe8b8b/b8378c42-a437-4dbf-845d-7c6e7a5bf549_Sample-Marketing_SOW.doc",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "6ab4b81fb26edf859d680e57",
+    "name": "No documents 24/09",
+    "description": "no documents workspace creation",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-23T18:30:00.000Z",
+    "end_date": "2026-10-31T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6abca14ef3130ad93dc44c29",
+    "name": "New creation workflow verification without doc non",
+    "description": "New creation workflow verification without docNew creation workflow verification without docNew creation workflow verification without docNew creation workflow verification without doc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-29T18:30:00.000Z",
+    "end_date": "2026-11-05T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6abcad09f3130ad93dc45186",
+    "name": "Approve srs verification with srs with po",
+    "description": "creation workflow verification with doccreation workflow verification with doccreation workflow verification with doccreation workflow verification with doc",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-10-01T18:30:00.000Z",
+    "end_date": "2026-11-20T18:29:59.000Z",
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T06:32:44.031Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abcad09f3130ad93dc45186/166c6082-533f-4a38-ac90-48e1cc06c001_Railway_Notification_Application_SRS.pdf",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6abcc6f0f3130ad93dc4589f",
+    "name": "Only sow with po approve",
+    "description": "only sow with po approve",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-10-01T18:30:00.000Z",
+    "end_date": "2026-10-03T18:29:59.000Z",
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T08:23:14.147Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abcc6f0f3130ad93dc4589f/276f5772-4543-47fa-92eb-37c8b0994cbb_Railway_Notification_Application_SOW.pdf",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6abcd7f88d34400d90d364a6",
+    "name": "Srs with no po",
+    "description": "srs with no po",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-29T18:30:00.000Z",
+    "end_date": "2026-10-25T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T09:35:54.172Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abcd7f88d34400d90d364a6/a0c429fb-87a9-4cdf-9f00-72965705bf67_Electronic_Interlocking_System_SRS.pdf",
+        "approval_status": "Approved"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6abcecd48d34400d90d36b59",
+    "name": "Upload srs and sow reject one",
+    "description": "Upload srs and sow reject one",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-29T18:30:00.000Z",
+    "end_date": "2026-10-29T18:29:59.000Z",
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T11:04:54.032Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T11:04:54.545Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abcecd48d34400d90d36b59/64916912-b875-44c0-8a39-fd765f03aca9_ecommerce_srs.docx",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abcecd48d34400d90d36b59/ed93ace4-8ac9-403e-8b04-82311ba298cc_ecommerce_sow.docx",
+        "approval_status": "Rejected"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6abd0f25aa6412cc256296ff",
+    "name": "Reject both documents srs and sow",
+    "description": "reject both documents srs and sow",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T13:31:19.404Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-09-30T13:31:20.071Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abd0f25aa6412cc256296ff/5f2d0976-f0e2-4543-8883-9553185aeeba_Marketing_Workspace_Space_Section_SRS_v1.0.docx",
+        "approval_status": "Rejected"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abd0f25aa6412cc256296ff/812a95ce-b2ab-4fdd-8c8f-676f75d1deb6_Marketing_Workspace_Space_Section_SOW_v1.0.docx",
+        "approval_status": "Rejected"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6abdee8bb348dd61c080c475",
+    "name": "To verify notication approvals",
+    "description": "TOOOO",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-30T18:30:00.000Z",
+    "end_date": null,
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "product_owner_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "aaron.wright5657@gmail.com",
+        "changed_on": "2026-10-01T05:26:09.561Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-10-01T05:26:09.561Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abdee8bb348dd61c080c475/54ca6d82-ea2c-471c-a8a9-79c56c6503f0_Marketing_Workspace_Space_Section_SRS_v1.0.docx",
+        "approval_status": "Waiting For Approval"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abdee8bb348dd61c080c475/353cbd17-fd4c-4af5-b487-87b715cd2d61_Marketing_Workspace_Space_Section_SOW_v1.0.docx",
+        "approval_status": "Waiting For Approval"
+      }
+    ]
+  },
+  {
+    "workspace_id": "6abe11bcb348dd61c080d1c6",
+    "name": "Amber green approver",
+    "description": "amber green approver",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-30T18:30:00.000Z",
+    "end_date": null,
+    "resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "product_owner_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6abe2624b348dd61c080d942",
+    "name": "Verifying workspace approval page documsatya&mani",
+    "description": "verifying workspace approval page documsatya&mani",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-09-30T18:30:00.000Z",
+    "end_date": "2026-11-20T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "product_owner_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-10-01T09:21:41.402Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-10-01T09:21:42.000Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abe2624b348dd61c080d942/52ea0f6f-8431-4f5d-b858-0ddd6a47e442_delivery_agent_panel_srs.pdf",
+        "approval_status": "Approved"
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6abe2624b348dd61c080d942/54254810-9ed6-4ada-b521-ce526d32fcb6_delivery_agent_panel_sow.pdf",
+        "approval_status": null
+      }
+    ]
+  },
+  {
+    "workspace_id": "6ac769f925149019ef4659b9",
+    "name": "Workspace without tasks",
+    "description": "tasksss without",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": null,
+    "end_date": null,
+    "resource_ids": [],
+    "product_owner_ids": [],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [],
+    "document_references": []
+  },
+  {
+    "workspace_id": "6acce2e6c313d68161d9f27e",
+    "name": "Overview page Manage resource in charge , budget",
+    "description": "overview page Manage resource in charge , budget , resource limitation",
+    "organization_id": "d9618c2b-8844-4570-8910-6f63f7e58873",
+    "status": "Active",
+    "start_date": "2026-10-11T18:30:00.000Z",
+    "end_date": "2026-11-30T18:29:59.000Z",
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "product_owner_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "in_charge_resource_ids": [],
+    "team_ids": [],
+    "stakeholder_emails": [],
+    "amendment_history": [
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-10-12T13:38:49.774Z"
+      },
+      {
+        "changed_by_email": "",
+        "changed_on": "2026-10-12T13:38:50.404Z"
+      }
+    ],
+    "document_references": [
+      {
+        "type": "SRS",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6acce2e6c313d68161d9f27e/3b13d00b-e47e-4d9b-985d-d2c95310e7a8_Marketing_Workspace_Space_Section_SRS_v1.0.docx",
+        "approval_status": null
+      },
+      {
+        "type": "SoW",
+        "url": "https://perxl-new.s3.amazonaws.com/perxl-d9618c2b-8844-4570-8910-6f63f7e58873/workspace-6acce2e6c313d68161d9f27e/2a556027-21ae-48e0-a5e8-a30dd3776e63_Marketing_Workspace_Space_Section_SOW_v1.0.docx",
+        "approval_status": null
+      }
+    ]
+  }
+]

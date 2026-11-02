@@ -1,0 +1,1193 @@
+[
+  {
+    "space_id": "6620f01513599833dbed5b40",
+    "workspace_id": "6620efb213599833dbed5b3e",
+    "name": "Admin",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-04-01T00:00:00.000Z",
+    "estimated_end_date": "2025-06-30T00:00:00.000Z",
+    "resource_ids": [
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6620f01513599833dbed5b3f",
+    "workspace_id": "6620efb213599833dbed5b3e",
+    "name": "Accounts",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-06-09T00:00:00.000Z",
+    "estimated_end_date": "2027-10-31T18:29:59.000Z",
+    "resource_ids": [
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67a57d49147a8c34b02967b2",
+    "workspace_id": "6620efb213599833dbed5b3e",
+    "name": "Developing",
+    "description": "Developing is the one word that encompasses testing , coding, and deploying as it represents the entire software development lifecycle which include writing code, verifying its functionality through testing and deploying it to a live environment",
+    "status": "Active",
+    "estimated_start_date": "2025-02-01T00:00:00.000Z",
+    "estimated_end_date": "2025-06-30T00:00:00.000Z",
+    "resource_ids": [
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6620f01513599833dbed5b42",
+    "workspace_id": "6620efb213599833dbed5b3e",
+    "name": "International Marketing",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-06-10T00:00:00.000Z",
+    "estimated_end_date": "2025-06-30T00:00:00.000Z",
+    "resource_ids": [
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "3921de68-9531-476e-9a62-d87172232d96"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6620f01513599833dbed5b43",
+    "workspace_id": "6620efb213599833dbed5b3e",
+    "name": "Publishing",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-04-08T00:00:00.000Z",
+    "estimated_end_date": "2025-06-30T00:00:00.000Z",
+    "resource_ids": [
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67455f40a271efc979a50ba5",
+    "workspace_id": "67455e7fa271efc979a50ba3",
+    "name": "Westpac Institutional Bank",
+    "description": null,
+    "status": null,
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67455f40a271efc979a50ba4",
+    "workspace_id": "67455e7fa271efc979a50ba3",
+    "name": "Consumer & Business Banking",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-09-01T18:30:00.000Z",
+    "estimated_end_date": "2025-09-30T18:29:59.998Z",
+    "resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67455f40a271efc979a50ba7",
+    "workspace_id": "67455e7fa271efc979a50ba3",
+    "name": "BT Financial Group",
+    "description": null,
+    "status": null,
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67455f40a271efc979a50ba6",
+    "workspace_id": "67455e7fa271efc979a50ba3",
+    "name": "St.GeorgeBanking Group",
+    "description": null,
+    "status": null,
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6788ab46ce364a51dee0b255",
+    "workspace_id": "6788ab31ce364a51dee0b252",
+    "name": "Steve Madden",
+    "description": null,
+    "status": "Completed",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6788ab46ce364a51dee0b253",
+    "workspace_id": "6788ab31ce364a51dee0b252",
+    "name": "Zara",
+    "description": null,
+    "status": "Completed",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "64917653172f03dbb1e05ddc",
+    "workspace_id": "64917653172f03dbb1e05dd9",
+    "name": "Development",
+    "description": "end-to-end development of a chatbot, starting with the collection of relevant data to inform its design and functionality. It includes defining user intents, creating conversation flows, and developing the backend logic. Following this, the chatbot will undergo rigorous testing to ensure it meets user expectations and performs effectively. Finally, the deployment process will be executed, making the chatbot accessible to users in a live environment, along with post-launch monitoring and optimiza",
+    "status": "Active",
+    "estimated_start_date": "2025-02-01T00:00:00.000Z",
+    "estimated_end_date": "2026-06-10T18:29:59.000Z",
+    "resource_ids": [
+      "ff845606-399d-4ba9-ac00-1fa6a02f2a0a",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "c8381355-1c71-4d9a-a4bc-c8b3866c7b47",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "64be19f9c144bb39513e2929",
+    "workspace_id": "64917653172f03dbb1e05dd9",
+    "name": "Accounting",
+    "description": "Accounting Space handles the accounts and finances of the California Division alongside the Funding and the Capital Investments in the Organization New",
+    "status": "Active",
+    "estimated_start_date": "2024-11-24T18:30:00.000Z",
+    "estimated_end_date": "2026-06-29T18:29:59.998Z",
+    "resource_ids": [
+      "ff845606-399d-4ba9-ac00-1fa6a02f2a0a",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "280224c2-0908-4a3b-b135-c34665d8f0ff",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "270065db-2a8e-489d-9cb2-87302b4fdf71",
+      "df796e4b-040d-49c9-b803-26d4fb25c2bb",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "5b167846-f6bd-4067-a0d3-4305816f7063",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "62dd9c1b-9511-4dcc-b071-31dec7f1138d",
+      "aa9438c7-b8a5-48d3-a69e-c29c30792ae0",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "106808bc-dab1-4350-8bb6-2bf5a65966ff",
+      "c7677116-322e-4586-98c1-84b641017ab1",
+      "cf03c244-5d3a-416b-9b77-b2a4af2657ce",
+      "c6b4762c-6fda-407e-a08e-df7ca284fe98",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "153dedbc-a705-411a-953b-c532f824c70a",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "dff24b1f-e9a1-4a8f-bc15-4fcc4157a010"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "64d3aec418795af9e4258e26",
+    "workspace_id": "64917653172f03dbb1e05dd9",
+    "name": "Marketing",
+    "description": "9Z43qaX5BGt8TWONCStbRr1oTJxY9eQXJI9Oov/ZJh1ZJRk8u8bHkKMOz+6IiEOEjq9Kbvlg8ZgT02WZXadyTXQiebfISDJAm4Ca6rZy+RhsQLqGLIlyRiQDaBsIHUZb/BoZE86iq6eHyCtb6pIdRbEiwlUJUwPtf5iGdx/9oh+B0wvHkqGu5x5PnK3XcQOP4GDmlkZZr9xi9Xy6uWoYbLL2H/EVuA3aKOvxO3RoPGxAQ0CCjkIzBMYF7lq4F1UJlhl/WzvBqui26cx6F/YQrK3lPVp4vDtbvGLDzKh4d3UD2Gd02EKuH4rKw+NqZ8wZH35pmItgB25jFxUVr31Dh3QGmM1PCENoysY6MQYA3K4ZSuMoMOq0Cb4XeLP46UacvFp56/zC1+1Ww76CpJfZVcVrS1ci81rkp3XxhCSdp+Ip9D7ekJ4JX5yZ5ylJKZHY",
+    "status": "Active",
+    "estimated_start_date": "2026-06-02T18:30:00.000Z",
+    "estimated_end_date": "2026-12-31T18:29:59.000Z",
+    "resource_ids": [
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "280224c2-0908-4a3b-b135-c34665d8f0ff",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "62dd9c1b-9511-4dcc-b071-31dec7f1138d",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6aaa345f9b720169c1979ac3",
+    "workspace_id": "64917653172f03dbb1e05dd9",
+    "name": "Sales",
+    "description": "Manage the complete sales process, including lead generation, qualification, customer follow-ups, proposals, negotiations, and deal closure.",
+    "status": "Active",
+    "estimated_start_date": "2026-09-15T18:30:00.000Z",
+    "estimated_end_date": "2026-09-25T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6777b291ed790364d9ebf2e6",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "GIAC Penetration Tester (GPEN)",
+    "description": null,
+    "status": "Completed",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6777b291ed790364d9ebf2e4",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Information Systems Security Professional (CISSP)",
+    "description": null,
+    "status": "Cancelled",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6777b291ed790364d9ebf2e8",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Certified Network Defender (CND)",
+    "description": null,
+    "status": "Closed",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6777b291ed790364d9ebf2e7",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "CompTIA PenTest+",
+    "description": null,
+    "status": "On Hold",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6777b291ed790364d9ebf2e5",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Offensive Security Certified Professional (OSCP)",
+    "description": null,
+    "status": "Under Review",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "68027ae80f4a17c912eb020e",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Compatibility Testers",
+    "description": "Compatibility Testers",
+    "status": "Active",
+    "estimated_start_date": "2025-03-01T00:00:00.000Z",
+    "estimated_end_date": null,
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6805d9430f4a17c912eb1d41",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "CyberSec First Responder (CFR)",
+    "description": "Here are more cybersecurity certifications similar to the ones you mentioned:\n- Certified Information Security Manager (CISM) – Focuses on managing and governing information security programs. Learn more here.\n- Certified Ethical Hacker (CEH) – Covers ethical hacking techniques and penetration testing methodologies.\n- Certified Information Systems Auditor (CISA) – Specializes in auditing, control, and assurance of information systems.\n- Certified Cloud Security Professional (CCSP) – Focuses on c",
+    "status": "Active",
+    "estimated_start_date": "2025-04-01T00:00:00.000Z",
+    "estimated_end_date": "2025-04-22T00:00:00.000Z",
+    "resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6805e5290f4a17c912eb2112",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Access Control Testing",
+    "description": "Verifying role-based access to sensitive information.",
+    "status": "Active",
+    "estimated_start_date": "2025-04-15T00:00:00.000Z",
+    "estimated_end_date": null,
+    "resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6805f7210f4a17c912eb222f",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Network Access Control Testing",
+    "description": "Network Access Control (NAC) testing ensures that only authorized devices and users can access a network while preventing unauthorized access. Here are key aspects of NAC testing:",
+    "status": "Completed",
+    "estimated_start_date": "2025-04-03T00:00:00.000Z",
+    "estimated_end_date": "2025-04-15T00:00:00.000Z",
+    "resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "afa552ce-ec43-4b73-93a7-205b28acf264"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6807355c0f4a17c912eb3f45",
+    "workspace_id": "6777b0c0ed790364d9ebf2e3",
+    "name": "Intrusion Detection & Prevention Testing",
+    "description": "Intrusion Detection & Prevention Testing",
+    "status": "Active",
+    "estimated_start_date": "2025-04-18T00:00:00.000Z",
+    "estimated_end_date": "2025-04-30T00:00:00.000Z",
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67d2808f476f343f45d74a92",
+    "workspace_id": "67d029023b3fa959eff6bf4d",
+    "name": "Accounting",
+    "description": "Running the books for a Canadian division is all about following Canadian accounting rules. Think ASPE or IFRS, plus strict tax and payroll compliance. Accurate records are a must!",
+    "status": "On Hold",
+    "estimated_start_date": "2023-02-27T18:30:00.000Z",
+    "estimated_end_date": "2026-03-31T18:29:59.000Z",
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "dad04a21-8009-4b1a-964c-4a5ebec5e8e2",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67db0d33a7372851bee5535f",
+    "workspace_id": "67d029023b3fa959eff6bf4d",
+    "name": "Cloud Computing",
+    "description": "Cloud computing is a transformative technology that allows users to access computing resources",
+    "status": "Active",
+    "estimated_start_date": "2025-03-20T00:00:00.000Z",
+    "estimated_end_date": "2026-02-28T18:29:59.000Z",
+    "resource_ids": [
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "67d912caa7372851bee4006a",
+    "workspace_id": "67d029023b3fa959eff6bf4d",
+    "name": "Compute Development",
+    "description": "When diving into AWS development, certain services stand out as essential building blocks. Here's a breakdown of the key ones to get acquainted with",
+    "status": "Active",
+    "estimated_start_date": "2025-03-05T00:00:00.000Z",
+    "estimated_end_date": "2025-03-19T18:30:00.000Z",
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "681a12969b369d7a54a5c568",
+    "workspace_id": "67d029023b3fa959eff6bf4d",
+    "name": "Product Development & Engineering",
+    "description": "- Software engineers develop and maintain applications.\n- Quality assurance (QA) team tests products for bugs.\n- UX/UI designers create user-friendly interfaces.\n- Research & Development (R&D) explores new technologies.",
+    "status": "Active",
+    "estimated_start_date": "2025-05-05T00:00:00.000Z",
+    "estimated_end_date": "2025-06-30T00:00:00.000Z",
+    "resource_ids": [
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a167a02e14d717307a0b8b7",
+    "workspace_id": "68f350652b4ffbf6508e3c5c",
+    "name": "Sales",
+    "description": "Sales Departmentt",
+    "status": "Active",
+    "estimated_start_date": "2026-05-26T18:30:00.000Z",
+    "estimated_end_date": "2026-06-30T18:29:59.998Z",
+    "resource_ids": [
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "dad04a21-8009-4b1a-964c-4a5ebec5e8e2",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "c5c036d3-cc16-4550-b58a-47d26ab3822b",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "690b8e3bb068c20d1d4b31bc",
+    "workspace_id": "690b8dd1b068c20d1d4b31bb",
+    "name": "Purchase Management",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-12-03T18:30:00.000Z",
+    "estimated_end_date": "2025-12-05T18:29:59.998Z",
+    "resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "691ae7a51e347234c6d51093",
+    "workspace_id": "691ae7481e347234c6d51091",
+    "name": "Sessional Changes",
+    "description": null,
+    "status": null,
+    "estimated_start_date": "2025-11-17T18:30:00.000Z",
+    "estimated_end_date": "2026-03-31T18:29:59.000Z",
+    "resource_ids": [
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "e125746a-c125-4ff0-96f0-5d94ebc4d449",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "153dedbc-a705-411a-953b-c532f824c70a",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3"
+    ],
+    "team_ids": [
+      "693c672ee5168374297494e1"
+    ],
+    "in_charge_resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "699bf219c920051c176857d9",
+    "workspace_id": "69995de03f431f61f891a187",
+    "name": "Signalling & Telecommunication",
+    "description": "Signalling & Telecommunication",
+    "status": "Active",
+    "estimated_start_date": "2026-02-22T18:30:00.000Z",
+    "estimated_end_date": "2026-11-30T18:29:59.000Z",
+    "resource_ids": [
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "cdea2dd7-ee8a-4c94-b2cc-e1ff2b1430db",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336"
+    ],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8b347271260b635258eb18",
+    "workspace_id": "69995de03f431f61f891a187",
+    "name": "Ex: Accounting",
+    "description": "Ex: Accounting",
+    "status": "Active",
+    "estimated_start_date": "2026-08-30T18:30:00.000Z",
+    "estimated_end_date": "2026-08-31T18:29:59.000Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8b348a71260b635258eb27",
+    "workspace_id": "69995de03f431f61f891a187",
+    "name": "QA, project name",
+    "description": "QA, project name",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a9563f3ad02a86bbdf154b3",
+    "workspace_id": "69995de03f431f61f891a187",
+    "name": "Hgfds",
+    "description": "hgfds",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a226da5e2689cbcc1c8eec2",
+    "workspace_id": "6a226aede2689cbcc1c8ec69",
+    "name": "Product",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "32e11ce2-36ca-4f4b-ace8-0142be844cb3",
+      "e125746a-c125-4ff0-96f0-5d94ebc4d449",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "abea930b-f381-499b-b824-9eb413a1e9fa",
+      "baa0c1bd-c7dd-43b3-b546-6108f5f1013b",
+      "00e93263-8737-42da-babe-2b877934afd5",
+      "3ec8f6ad-6451-418b-a914-f301f3cbb7df",
+      "31a57da7-6e69-407c-9d7a-2cfc44c7d493",
+      "51cc199e-c654-4619-9509-7526540f2ab9",
+      "3921de68-9531-476e-9a62-d87172232d96",
+      "dff24b1f-e9a1-4a8f-bc15-4fcc4157a010",
+      "afa552ce-ec43-4b73-93a7-205b28acf264",
+      "394439fd-adeb-44ff-b903-b3fcb1be16fd",
+      "840715e3-64a0-4c36-9059-dc85be2ed2f1",
+      "49d2b662-d2bd-4516-a122-0a12271074a1",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "11555a85-a74a-4ef2-8d2a-9c33b9e4730c",
+      "76772d03-a33b-41d0-9012-6b80c2f4ecf5",
+      "153dedbc-a705-411a-953b-c532f824c70a"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a3920229c6e2c1b4d298c47",
+    "workspace_id": "6a391fe39c6e2c1b4d298b1c",
+    "name": "New Space",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a4754c9825c657376cd425b",
+    "workspace_id": "6a475451825c657376cd4130",
+    "name": "Space-1",
+    "description": null,
+    "status": "Under Review",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a6996d24803d6ebc6400cb7",
+    "workspace_id": "6a68ea6c4803d6ebc640044f",
+    "name": "Frontend Development",
+    "description": "Development of user interface components for the AI Trip Generator application.",
+    "status": "Active",
+    "estimated_start_date": "2026-07-26T18:30:00.000Z",
+    "estimated_end_date": "2026-08-20T18:29:59.000Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a6996d24803d6ebc6400cb8",
+    "workspace_id": "6a68ea6c4803d6ebc640044f",
+    "name": "Backend Services",
+    "description": "Development of backend services and APIs for data processing and AI logic.",
+    "status": "Active",
+    "estimated_start_date": "2026-07-26T18:30:00.000Z",
+    "estimated_end_date": "2026-08-25T18:29:59.000Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a6996d24803d6ebc6400cb9",
+    "workspace_id": "6a68ea6c4803d6ebc640044f",
+    "name": "AI & Machine Learning",
+    "description": "Development and integration of AI models for itinerary generation.",
+    "status": "Active",
+    "estimated_start_date": "2026-07-26T18:30:00.000Z",
+    "estimated_end_date": "2026-08-25T18:29:59.000Z",
+    "resource_ids": [
+      "5610eb3f-c910-4ad0-a530-3f9b7e659b86",
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "abea930b-f381-499b-b824-9eb413a1e9fa"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a6996d34803d6ebc6400cba",
+    "workspace_id": "6a68ea6c4803d6ebc640044f",
+    "name": "Testing & Quality Assurance",
+    "description": "Comprehensive testing to ensure application functionality and performance.",
+    "status": "Active",
+    "estimated_start_date": "2026-08-25T18:30:00.000Z",
+    "estimated_end_date": "2026-08-31T18:29:59.000Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8b320571260b635258e8f5",
+    "workspace_id": "6a68ea6c4803d6ebc640044f",
+    "name": "Spa",
+    "description": "s",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a79dc5aff78cd2192028a66",
+    "workspace_id": "6a797fd6ff78cd2192027841",
+    "name": "Marketing Campaigns",
+    "description": "Marketing Campaigns",
+    "status": "Active",
+    "estimated_start_date": "2026-08-09T18:30:00.000Z",
+    "estimated_end_date": "2026-09-30T18:29:59.000Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a85b3ced648e0acc4843fe7",
+    "workspace_id": "6a85a52bd648e0acc4843bd4",
+    "name": "ACVE",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "e901600c-1db6-4143-9d0e-d786a0e793a7",
+      "6d11ff02-1571-4f95-a6aa-ef114773a8bb"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8b3b1a71260b635258f17e",
+    "workspace_id": "6a85a52bd648e0acc4843bd4",
+    "name": "Sales Develo",
+    "description": "Sales Develo",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8ef170c94e458f3a17c541",
+    "workspace_id": "6a85a52bd648e0acc4843bd4",
+    "name": "Test space-charan",
+    "description": "0scvJehaCt7vEZK1XEkgYC7MLUvKaK65/CaJorkfxzw=",
+    "status": "Active",
+    "estimated_start_date": "2026-08-25T18:30:00.000Z",
+    "estimated_end_date": "2026-08-31T18:29:59.998Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6ab254898030051272bda6ec",
+    "workspace_id": "6a85a52bd648e0acc4843bd4",
+    "name": "Space 22/09",
+    "description": "space",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a87fa87fd687b1fc3b38e24",
+    "workspace_id": "6a87f9e9fd687b1fc3b38bde",
+    "name": "Space 1",
+    "description": "sp",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "6d11ff02-1571-4f95-a6aa-ef114773a8bb"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8dd979ca2c383dfe5c1685",
+    "workspace_id": "6a8dd7a1ca2c383dfe5c143c",
+    "name": "Demo Space",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6a8dd9aeca2c383dfe5c1686",
+    "workspace_id": "6a8dd7a1ca2c383dfe5c143c",
+    "name": "Demo2",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6ab4bc05b26edf859d68114d",
+    "workspace_id": "6ab4b81fb26edf859d680e57",
+    "name": "Space na",
+    "description": "space",
+    "status": "Active",
+    "estimated_start_date": "2026-09-23T18:30:00.000Z",
+    "estimated_end_date": "2026-10-30T18:29:59.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abcae9af3130ad93dc45188",
+    "workspace_id": "6abcad09f3130ad93dc45186",
+    "name": "Spppace",
+    "description": "sssp",
+    "status": "Active",
+    "estimated_start_date": "2026-10-02T18:30:00.000Z",
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abcc763f3130ad93dc458a0",
+    "workspace_id": "6abcc6f0f3130ad93dc4589f",
+    "name": "Seppp",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abcd9128d34400d90d366f9",
+    "workspace_id": "6abcd7f88d34400d90d364a6",
+    "name": "AED",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abcedc18d34400d90d36b5a",
+    "workspace_id": "6abcecd48d34400d90d36b59",
+    "name": "Sdedg",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abd147baa6412cc25629c78",
+    "workspace_id": "6abd0f25aa6412cc256296ff",
+    "name": "Reject",
+    "description": "rej",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "e901600c-1db6-4143-9d0e-d786a0e793a7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abe121cb348dd61c080d1c7",
+    "workspace_id": "6abe11bcb348dd61c080d1c6",
+    "name": "Spqjhed",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": "2026-10-01T00:00:00.000Z",
+    "estimated_end_date": "2026-10-31T00:00:00.000Z",
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6abe275bb348dd61c080dfeb",
+    "workspace_id": "6abe2624b348dd61c080d942",
+    "name": "Space 1",
+    "description": "space",
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6ac76ab125149019ef465bed",
+    "workspace_id": "6ac769f925149019ef4659b9",
+    "name": "Without tasks new space",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": null,
+    "estimated_end_date": null,
+    "resource_ids": [],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  },
+  {
+    "space_id": "6acce390c313d68161d9f4cf",
+    "workspace_id": "6acce2e6c313d68161d9f27e",
+    "name": "Resource limitation verification onoverview page",
+    "description": null,
+    "status": "Active",
+    "estimated_start_date": "2026-10-12T00:00:00.000Z",
+    "estimated_end_date": "2026-11-30T00:00:00.000Z",
+    "resource_ids": [
+      "51fd289b-2fde-4b86-a839-79f658d9b336",
+      "e3f92984-242d-4b2f-a02e-fb5f9129b761",
+      "2780660d-7721-4bc1-a50f-8ce28501a1e8",
+      "9f22d68c-4bfa-48e3-b9eb-6bde966d4604",
+      "11ed5f41-30a7-451d-9100-b647ea9fe4c7"
+    ],
+    "team_ids": [],
+    "in_charge_resource_ids": [],
+    "hide_closed_sections": false
+  }
+]

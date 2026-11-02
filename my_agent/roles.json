@@ -1,0 +1,40 @@
+{
+  "user1": {
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_SPACE",
+      "VIEW_SECTION",
+      "VIEW_TASK",
+      "VIEW_EMPLOYEE",
+      "VIEW_KNOWLEDGE_BASE"
+    ]
+  },
+  "user2": {
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_SPACE",
+      "VIEW_SECTION",
+      "VIEW_TASK",
+      "VIEW_EMPLOYEE",
+      "VIEW_KNOWLEDGE_BASE"
+    ]
+  },
+  "user3": {
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_SPACE",
+      "VIEW_SECTION",
+      "VIEW_TASK",
+      "VIEW_KNOWLEDGE_BASE"
+    ]
+  },
+  "user4": {
+    "permissions": [
+      "VIEW_PROJECT",
+      "VIEW_SPACE",
+      "VIEW_SECTION",
+      "VIEW_TASK",
+      "VIEW_KNOWLEDGE_BASE"
+    ]
+  }
+}
