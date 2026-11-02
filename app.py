@@ -186,6 +186,58 @@ permission_labels = {
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+if "selected_user_id" not in st.session_state:
+    st.session_state.selected_user_id = None
+
+if st.session_state.selected_user_id not in {
+    user["user_id"].strip() for user in active_users
+}:
+    st.session_state.selected_user_id = None
+
+if st.session_state.selected_user_id is None:
+    _, login_column, _ = st.columns([1, 1.5, 1])
+    with login_column:
+        st.markdown(
+            '<div class="main-title" style="text-align: center;">'
+            "Project Management Assistant</div>",
+            unsafe_allow_html=True
+        )
+        st.markdown(
+            '<div class="main-subtitle" style="text-align: center;">'
+            "Login</div>",
+            unsafe_allow_html=True
+        )
+        st.markdown(
+            "<div style='text-align: center;'>"
+            "Choose a demo user to continue. Available features depend on "
+            "that user's configured permissions.</div>",
+            unsafe_allow_html=True
+        )
+
+        with st.form("user_selection_form"):
+            selected_user_option = st.selectbox(
+                "User",
+                options=list(users.keys())
+            )
+            confirm_user = st.form_submit_button("Login")
+
+    if confirm_user:
+        st.session_state.selected_user_id = users[
+            selected_user_option
+        ]["user_id"].strip()
+        st.rerun()
+
+    st.stop()
+
+selected_user_data = next(
+    user
+    for user in active_users
+    if user["user_id"].strip() == st.session_state.selected_user_id
+)
+user_id = selected_user_data["user_id"].strip()
+user_name = selected_user_data["name"].strip()
+user_role = str(selected_user_data.get("role") or "No role assigned")
+
 def get_recent_conversation(messages, max_messages=8, max_chars=6000):
     """Return recent user/assistant text messages within a size limit."""
     history = [
@@ -376,17 +428,6 @@ with st.sidebar:
         unsafe_allow_html=True
     )
 
-    selected_user = st.selectbox(
-        "Select User",
-        options=list(users.keys()),
-        label_visibility="collapsed"
-    )
-
-    selected_user_data = users[selected_user]
-    user_id = selected_user_data["user_id"].strip()
-    user_name = selected_user_data["name"].strip()
-    user_role = str(selected_user_data.get("role") or "No role assigned")
-
     st.markdown(
         f"""
         <div class="user-card">
@@ -397,19 +438,6 @@ with st.sidebar:
         """,
         unsafe_allow_html=True
     )
-
-    st.divider()
-
-
-    st.markdown(
-        '<div class="section-label">Available Users</div>',
-        unsafe_allow_html=True
-    )
-
-    for user in active_users:
-        st.caption(
-            f"**{user['user_id'].strip()}** · {user['name'].strip()}"
-        )
 
     st.divider()
 
@@ -428,6 +456,11 @@ with st.sidebar:
         use_container_width=True
     ):
         st.session_state.messages = []
+        st.rerun()
+
+    if st.button("Switch User", use_container_width=True):
+        st.session_state.messages = []
+        st.session_state.selected_user_id = None
         st.rerun()
 
 
