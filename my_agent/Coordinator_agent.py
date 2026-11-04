@@ -110,9 +110,14 @@ def _gemini_chat(
                 "name": "call_task_agent",
                 "description": (
                     "Handle task records, task-name searches, exact task ID lookups, "
-                    "status, assignments, and due dates. For Workspace-filtered tasks, "
-                    "first resolve the Workspace to a verified Workspace ID with the "
-                    "Project Agent, then include that ID in the task requests. "
+                    "assignee-filtered task searches, status, assignments, due "
+                    "dates, and count questions for total, overdue, "
+                    "closed, ToDo, In Progress, or Completed tasks, including counts "
+                    "filtered by assignee ResourceID or name. It can retrieve "
+                    "overdue task records as well as counts. For Workspace-"
+                    "filtered task requests, first resolve the Workspace to a verified "
+                    "Workspace ID with the Project Agent, then include that ID in the "
+                    "task request. "
                     "For project issue questions, use search_outside_knowledge."
                 ),
                 "parameters": {
@@ -500,8 +505,10 @@ disabled; do not rely on or invent saved user memories.
 SPECIALISTS
 - Project Agent: Workspace, Space, and Section records, including names,
   IDs, status, dates, membership, and hierarchy.
-- Task Agent: task records, exact lookup by a user-provided task ID, status,
-  assignments, due dates, and tasks filtered by a verified Workspace ID.
+- Task Agent: task records, including searches by task name or assignee,
+  exact lookup by a user-provided task ID, status, assignments, due dates,
+  task counts (including total, overdue, closed, and counts
+  by status or assignee), and tasks filtered by a verified Workspace ID.
 - Employee Agent: PerXL Resource records and available Resource fields.
   Some stored identity fields may be encoded or missing; never decode them
   or infer absent details.
@@ -518,9 +525,14 @@ request needs issue records and operational records.
 
 ROUTING
 - Use Project Agent for Workspace, Space, or Section requests.
-- Use Task Agent for task requests. Tasks have no direct Workspace ID;
+- Use Task Agent for task requests and task-count questions, including total
+  counts and counts for a specified assignee. Tasks have no
+  direct Workspace ID;
   for a Workspace-filtered task request, first resolve the Workspace name
   with Project Agent and pass the verified Workspace ID to Task Agent.
+- Route requests for lists of overdue task records to Task Agent; use
+  get_tasks with overdue=True. For counts of overdue tasks, use the Task
+  Agent's get_task_metrics metric.
 - Use Employee Agent for Resource requests.
 - Use search_outside_knowledge for questions about project issues.
 - Use a specialist and issue search together when the request needs both
@@ -625,8 +637,11 @@ Workspace, Space, and Section names, IDs, status, dates, membership,
 and hierarchy. Resolve Workspace names to verified Workspace IDs.
 
 Task Agent:
-Task records, exact lookup by a user-provided task ID, task status,
-assignments, due dates, and tasks filtered by a verified Workspace ID.
+Task records, including searches by task name or assignee, exact lookup by a
+user-provided task ID, task status, assignments, due dates, and metric counts
+for total, overdue, closed, ToDo,
+In Progress, or Completed tasks, optionally filtered by assignee ResourceID
+or name. It can also filter by verified Workspace ID.
 Tasks have no direct Workspace ID; their Workspace membership is derived
 through Section and Space links.
 
@@ -645,6 +660,15 @@ ROUTING RULES
 - Use the appropriate specialist for project, task, or employee
   information that requires the application's operational data.
 - Use Project Agent for Workspace, Space, and Section records.
+- Route questions asking for the number/count of total, overdue, closed, ToDo,
+  In Progress, or Completed tasks to the Task Agent. For a Workspace-specific
+  count, resolve the Workspace name with Project Agent first and provide its
+  verified Workspace ID to the Task Agent.
+- Route requests to list overdue task records to Task Agent; it filters using
+  DueDate and ClosedOn. If the user also specifies a Workspace, resolve that
+  Workspace name first and include its verified ID.
+- For an assignee-specific task count, route to Task Agent and pass the
+  supplied ResourceID or name in the self-contained request.
 - For Workspace-filtered task requests, resolve the Workspace first and
   pass its verified Workspace ID to Task Agent.
 - Use search_outside_knowledge for project issue questions.
@@ -1201,9 +1225,11 @@ def run_coordinator(
     membership, and hierarchy. Resolve Workspace names to verified IDs.
 
     call_task_agent:
-    Task records, exact lookup when the user supplies a task ID, status,
-    assignments, due dates, and tasks filtered using a verified Workspace ID.
-    Tasks have no direct Workspace ID.
+    Task records, including searches by task name or assignee, exact lookup
+    when the user supplies a task ID, status, assignments, due dates, and
+    counts of total, overdue, closed, ToDo, In Progress,
+    or Completed tasks, optionally filtered by assignee ResourceID or name.
+    It can filter by verified Workspace ID. Tasks have no direct Workspace ID.
 
     call_employee_agent:
     PerXL Resource IDs and available Resource fields. Some identity fields may
@@ -1217,8 +1243,13 @@ def run_coordinator(
     ROUTING RULES
 
     - Use Project Agent for Workspace, Space, and Section records.
-    - Use Task Agent for task records. For a Workspace-filtered task request,
-    first resolve the Workspace name and pass its verified ID.
+    - Use Task Agent for task records and counts of total, overdue, closed,
+      ToDo, In Progress, or Completed tasks. Use Task Agent get_tasks for
+      overdue task lists and get_task_metrics for overdue counts. For a
+      Workspace-filtered task request, first resolve the Workspace name and
+      pass its verified ID.
+    - For assignee-specific task counts, include the user's supplied
+      ResourceID or name in the Task Agent request.
     - Use Employee Agent for Resource records.
     - Use search_outside_knowledge for project issue questions.
     - Do not use issue search as evidence for policies or uploaded documents.

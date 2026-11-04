@@ -50,6 +50,7 @@ TOOL_PERMISSIONS = {
     "get_spaces": Permission.VIEW_SPACE,
     "get_sections": Permission.VIEW_SECTION,
     "get_tasks": Permission.VIEW_TASK,
+    "get_task_metrics": Permission.VIEW_TASK,
     "get_employee": Permission.VIEW_EMPLOYEE,
     "search_knowledge_base_tool": Permission.VIEW_KNOWLEDGE_BASE,
     "get_task_by_id": Permission.VIEW_TASK

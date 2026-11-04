@@ -1,13 +1,12 @@
 import json
 import os
-from datetime import datetime, timezone
 from types import SimpleNamespace
 
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from google.genai.errors import APIError
-from my_agent.tools_new import get_tasks, get_task_by_id
+from my_agent.tools_new import get_tasks, get_task_by_id, get_task_metrics
 from my_agent.rag_tools import search_knowledge_base_tool
 from my_agent.permission import authorize_tool
 
@@ -93,12 +92,15 @@ TASK_TOOL_DECLARATIONS = [
     types.FunctionDeclaration(
         name="get_tasks",
         description=(
-            "Retrieve processed task records. Optionally filter by task name,"
-            "Workspace ID, or status. If project_id is omitted, search across "
-            "all task records. Task-name matching is case-insensitive and "
-            "supports partial matches. Workspace membership uses consistent "
-            "Section and space links. The overdue filter is opt-in: set it"
-            "to true only for overdue requests. "
+            "Retrieve processed task records. Optionally filter by task name, "
+            "Workspace ID, status, or assignee ResourceID/name. If project_id "
+            "is omitted, search across all task records. Task-name matching is "
+            "case-insensitive and supports partial matches. Assignee matching "
+            "uses an exact ResourceID, first name, or full Name LastName, "
+            "ignoring case and extra spaces. Workspace membership uses "
+            "consistent Section and Space links. Returns at most 10 matching "
+            "records; additional matches may be omitted. Set overdue=true to "
+            "return only closed tasks whose ClosedOn is later than DueDate."
         ),
         parameters=types.Schema(
             type="OBJECT",
@@ -118,27 +120,93 @@ TASK_TOOL_DECLARATIONS = [
                         "Completed."
                     )
                 ),
-                "overdue": types.Schema(
-                    type="BOOLEAN",
-                    description=(
-                        "Optional, default-false filter. Omit or set false "
-                        "to preserve standard get_tasks results. Set true "
-                        "only when the user asks for overdue tasks; this "
-                        "includes tasks whose DueDate is before the current "
-                        "UTC time, Status is ToDo or In Progress, and "
-                        "IsClosed is false. Missing/invalid DueDate tasks "
-                        "are not classified as overdue."
-                    )
-                ),
                 "task_name": types.Schema(
-                    type = "STRING",
-                    description = (
+                    type="STRING",
+                    description=(
                         "Exact or partial task name to search for. "
                         "Use this when the user identifies a task by name."
                     )
-                )
+                ),
+                "assignee_id": types.Schema(
+                    type="STRING",
+                    description=(
+                        "Optional exact ResourceID from the task's Assignee "
+                        "field. Use when the user gives an assignee ID."
+                    ),
+                ),
+                "assignee_name": types.Schema(
+                    type="STRING",
+                    description=(
+                        "Optional exact first name or full name (Name followed "
+                        "by LastName) from the task's Assignee field. Matching "
+                        "is case-insensitive; partial names are not supported."
+                    ),
+                ),
+                "overdue": types.Schema(
+                    type="BOOLEAN",
+                    description=(
+                        "Optional. Set true to return only closed tasks whose "
+                        "ClosedOn is later than DueDate; records with missing "
+                        "or invalid dates are excluded."
+                    ),
+                ),
             }
         )
+    ),
+    types.FunctionDeclaration(
+        name="get_task_metrics",
+        description=(
+            "Return exactly one integer count for the requested task metric. "
+            "Use metric='total' for all matching tasks; 'overdue' counts "
+            "closed tasks whose ClosedOn is later than DueDate, requiring "
+            "both dates to be valid; 'closed' counts tasks whose IsClosed "
+            "field is true; 'todo', 'in_progress', or 'completed' count "
+            "tasks with that status. Optionally filter by Workspace ID or "
+            "assignee."
+        ),
+        parameters=types.Schema(
+            type="OBJECT",
+            properties={
+                "metric": types.Schema(
+                    type="STRING",
+                    description=(
+                        "The single metric to count: total, overdue, closed, "
+                        "todo, in_progress, or completed."
+                    ),
+                    enum=[
+                        "total",
+                        "overdue",
+                        "closed",
+                        "todo",
+                        "in_progress",
+                        "completed",
+                    ],
+                ),
+                "workspace_id": types.Schema(
+                    type="STRING",
+                    description=(
+                        "Optional Workspace ID to limit the count to one "
+                        "Workspace."
+                    ),
+                ),
+                "assignee_id": types.Schema(
+                    type="STRING",
+                    description=(
+                        "Optional exact ResourceID from the task's Assignee "
+                        "field. Use when the user gives an assignee ID."
+                    ),
+                ),
+                "assignee_name": types.Schema(
+                    type="STRING",
+                    description=(
+                        "Optional exact first name or full name (Name followed "
+                        "by LastName) from the task's Assignee field. Matching "
+                        "is case-insensitive; partial names are not supported."
+                    ),
+                ),
+            },
+            required=["metric"],
+        ),
     ),
     types.FunctionDeclaration(
         name="search_knowledge_base_tool",
@@ -176,67 +244,6 @@ TASK_TOOL_DECLARATIONS = [
         )
     )
 ]
-
-
-def _get_tasks(
-        project_id=None,
-        status=None,
-        overdue=False,
-        task_name = None):
-    """Apply Task Agent's optional overdue filter to processed task results."""
-
-    if not isinstance(overdue, bool):
-        raise ValueError("overdue must be a boolean.")
-
-    matched_tasks = get_tasks(
-        project_id=project_id,
-        status=status,
-    )
-    if task_name is not None:
-        normalized_name = str(task_name).strip().casefold()
-        if not normalized_name:
-            return []
-
-        matched_tasks = [
-            task
-            for task in matched_tasks
-            if normalized_name
-            in str(task.get("TaskName") or "").strip().casefold()
-        ]
-
-    if not overdue:
-        return matched_tasks
-
-    now = datetime.now(timezone.utc)
-    overdue_tasks = []
-
-    for task in matched_tasks:
-        task_status = str(task.get("Status") or "").strip().casefold()
-        if task_status not in {"todo", "in progress"}:
-            continue
-        if task.get("IsClosed") is not False:
-            continue
-
-        due_date = task.get("DueDate")
-        if not isinstance(due_date, str) or not due_date.strip():
-            continue
-
-        try:
-            due_at = datetime.fromisoformat(
-                due_date.strip().replace("Z", "+00:00")
-            )
-        except ValueError:
-            continue
-
-        if due_at.tzinfo is None:
-            due_at = due_at.replace(tzinfo=timezone.utc)
-        else:
-            due_at = due_at.astimezone(timezone.utc)
-
-        if due_at < now:
-            overdue_tasks.append(task)
-
-    return overdue_tasks
 
 
 # ============================================================
@@ -366,8 +373,9 @@ def _gemini_chat(
 # ============================================================
 
 task_tools = {
-    "get_tasks": _get_tasks,
+    "get_tasks": get_tasks,
     "get_task_by_id": get_task_by_id,
+    "get_task_metrics": get_task_metrics,
     "search_knowledge_base_tool": search_knowledge_base_tool,
 }
 # ============================================================
@@ -380,9 +388,19 @@ You are a Task Specialist Agent.
 Solve task-related requests using only the available tools and their results.
 
 Tools:
-- get_tasks: retrieves processed task records. It supports optional filters for 
-  task name, Workspace ID, status, and overdue status. Omit project_id 
-  to search across all available task records.
+- get_tasks: retrieves processed task records. It supports optional filters for
+  task name, Workspace ID, status, assignee ResourceID, or exact assignee
+  first/full name. Omit project_id to search across all available task records.
+  Set overdue=True to retrieve overdue task records, defined as closed tasks
+  whose ClosedOn is later than DueDate with both dates valid. It returns at
+  most 10 matching records; additional matches may be omitted.
+- get_task_metrics: returns one integer count for one requested metric:
+  total, overdue, closed, todo, in_progress, or completed. The total metric
+  counts all matching tasks after optional Workspace/assignee filters. An
+  overdue task is closed after its DueDate; both dates must be valid.
+  Optionally filter by Workspace ID, exact assignee ResourceID, or exact
+  assignee first/full name. Use it for count questions; it does not return
+  task records.
 - get_task_by_id: retrieves one task by its exact _id. Use it when the user
   provides a task ID; do not guess or construct IDs. This lookup does not
   require a Workspace ID.
@@ -425,19 +443,31 @@ Rules:
     Some values may remain opaque; do not decode or present opaque text as a
     human-readable task name or description.
 18. Actual stored task statuses are ToDo, In Progress, and Completed.
-    "Overdue" is a calculated filter, not a stored status. For overdue requests,
-    call get_tasks with overdue=true; do not pass "overdue" as status. For all
-    other requests, omit overdue or pass false so standard results are unchanged.
-19. The overdue filter includes tasks whose DueDate is earlier than the
-    current UTC time, whose Status is ToDo or In Progress, and whose IsClosed
-    value is false. Tasks with missing or invalid DueDate values are not
-    classified as overdue.
+    "Overdue" is a calculated metric, not a stored status. Use
+    get_task_metrics with metric="overdue" for an overdue count. For a list of
+    overdue task records, use get_tasks with overdue=True. Both use the rule
+    that the task is closed and ClosedOn is later than DueDate; both dates must
+    be valid. For counts of closed, ToDo, In Progress, or Completed tasks, call
+    get_task_metrics
+    with exactly one matching metric. For a total task count, use
+    get_task_metrics with metric="total"; do not count get_tasks results,
+    because that tool returns at most 10 records.
 20. Use get_task_by_id when the user provides an exact task ID and asks about
     that task. It looks up the task's _id directly and does not require a
     Workspace ID. Do not guess or construct IDs.
-21. get_tasks filters by Workspace ID, stored status, task name, and the
-    overdue flag. It does not filter directly by task ID, Section, Space, or
-    assignee.
+21. get_tasks filters by Workspace ID, stored status, task name, assignee
+    ResourceID, exact assignee first/full name, or overdue state. It does not
+    filter directly by task ID, Section, or Space. It returns at most 10
+    matching records; do not imply the results are complete when 10 are
+    returned.
+    get_task_metrics returns only one integer count per call; its metric is
+    required and must be total, overdue, closed, todo, in_progress, or
+    completed.
+    It optionally filters by Workspace ID, assignee ResourceID (assignee_id),
+    or exact assignee first/full name (assignee_name). A name filter matches
+    the Assignee Name field or Name plus LastName, ignoring case and extra
+    spaces; it is not a partial-name search. If both assignee filters are
+    supplied, both must match.
 22. If a lookup returns no records, state that no matching records were
     returned from the available dataset; do not claim the task does not exist
     elsewhere.
@@ -486,7 +516,15 @@ RESULT:
 Rules:
 - Focus only on information requested by the user.
 - get_tasks provides processed task records and filters by Workspace ID,
-  stored status, and the overdue flag.
+  stored status, task name, assignee ResourceID, or exact assignee first/full
+  name, and can filter overdue records. It returns at most 10 matches; if 10
+  records are returned, additional matches may have been omitted.
+- If the latest tool is get_tasks and its result contains 10 records, state
+  that the response is limited to 10 tasks and additional matches may exist.
+  Do not imply that the returned list is complete.
+- get_task_metrics returns one integer count for one selected metric (total,
+  overdue, closed, todo, in_progress, or completed), optionally limited to a
+  Workspace and/or assignee ResourceID or exact first/full name.
 - get_task_by_id retrieves one task by its exact _id; it does not require a
   Workspace ID.
 - Task records have no direct Workspace ID. Workspace-filtered results include
@@ -494,9 +532,19 @@ Rules:
   evidence that a task belongs to another Workspace.
 - Use readable TaskName and TaskDescription values exactly as returned. If a
   value remains opaque, do not decode or present it as a human-readable fact.
-- "Overdue" is calculated by the explicit overdue filter: DueDate earlier than
-  current UTC time, Status ToDo/In Progress, and IsClosed false. Missing or
-  invalid DueDate values are not classified as overdue.
+- "Overdue" count means a closed task has ClosedOn later than DueDate. The
+  metric tool excludes records with missing or invalid dates. It returns a
+  count only. For matching overdue task records, use get_tasks with
+  overdue=True.
+- Use get_task_metrics for count questions, including total task counts. Each
+  call returns one integer metric, not task records or multiple metric values.
+  Never count get_tasks results; it may return only the first 10 matches. Use
+  get_tasks when the user requests task records; set overdue=True for an
+  overdue task list and pass any supplied assignee ResourceID as assignee_id
+  or exact first/full name as assignee_name.
+- For a count about a named assignee, pass their exact first name or full
+  "Name LastName" in assignee_name. For a supplied ResourceID, pass it in
+  assignee_id. If both are given, pass both filters.
 - A task-data question alone does not require issue search; use it for
   project issue questions.
 - search_knowledge_base_tool provides project issue records, not policies,
@@ -517,8 +565,11 @@ Rules:
 Examples:
 - Requested project tasks returned by get_tasks -> FINISH.
 - Requested task returned by get_task_by_id for the provided exact ID -> FINISH.
+- Requested count returned by get_task_metrics -> FINISH.
+- Requested total task count returned by get_task_metrics(metric="total") -> FINISH.
 - Requested Completed/ToDo tasks with status data -> FINISH.
-- Requested overdue tasks retrieved with overdue=true -> FINISH.
+- Requested overdue count returned by get_task_metrics(metric="overdue") -> FINISH.
+- Requested overdue task records returned by get_tasks(overdue=True) -> FINISH.
 - Requested task assignments with assignment data -> FINISH.
 - Requested issue record returned by issue search -> FINISH.
 - Task data retrieved but a requested issue record is still missing -> CONTINUE.
@@ -572,8 +623,17 @@ If no Workspace is specified, retrieve matching tasks across all available
 records; do not ask the user to provide a Workspace ID.
 If the user provides an exact task ID, use get_task_by_id; do not first search
 all tasks or require a Workspace ID.
-For overdue requests, use get_tasks with overdue=true. Search issue records
-only when the user asks about project issues.
+For total counts, use get_task_metrics with metric="total". For counts of
+overdue, closed, ToDo, In Progress, or Completed tasks, use
+get_task_metrics with exactly one matching metric. Never count get_tasks
+results to answer a count question. The metrics tool returns a count only.
+For an assignee-scoped count, pass a supplied ResourceID as assignee_id or
+the exact first name/full "Name LastName" as assignee_name. Include
+workspace_id when the user requests a Workspace-specific count.
+If the user requests a list of overdue task records, use get_tasks with
+overdue=True. If the user asks how many/for the total number of overdue tasks,
+use get_task_metrics with metric="overdue". Search issue records only when the
+user asks about project issues.
 
 Use only available Task Agent tools.
 Do not execute tools yet.
@@ -704,16 +764,27 @@ TOOL EXECUTION TRACE:
 Using ONLY the information in the tool execution trace,
 answer the user's request directly.
 
-get_tasks provides processed task records, including the explicit overdue
-filter when requested. get_task_by_id provides one task matching the exact
-task ID supplied by the user.
+get_tasks provides processed task records filtered by Workspace ID, status,
+task name, or assignee, with at most 10 records returned. get_task_metrics
+provides one integer count for the requested metric, including total task
+counts across all matches. Never infer a total count by counting get_tasks
+results because that tool is capped at 10 records. get_task_by_id provides
+one task matching the exact task ID supplied by the user.
 search_knowledge_base_tool provides project issue records only.
 
 Do not invent tasks, dates, assignments, issue details, or other information.
+If a get_tasks call in the trace returned exactly 10 records, add a brief
+heads-up that the result is limited to 10 tasks and there may be additional
+matching tasks. Do not claim the list is complete.
 Use actual task field names and stored status values. Do not decode
 TaskName or TaskDescription values that appear encoded. Describe overdue as
-a calculated filter based on DueDate, current UTC time, Status, and IsClosed,
-not as a stored status.
+a calculated metric based on ClosedOn being later than DueDate for closed
+tasks with valid dates; do not compare against the current time or treat it
+as a stored status.
+When answering a count request, report the integer returned by
+get_task_metrics and identify which metric it represents. Do not claim that
+the tool returned task records or additional metrics. If an assignee filter
+was used, identify the requested assignee scope in the answer.
 
 If the available information is insufficient, clearly state
 what could and could not be determined.
@@ -795,6 +866,15 @@ CURRENT PLAN:
 Execute the current plan.
 
 Choose exactly ONE useful Task Agent tool call.
+For a task-count question, use get_task_metrics with exactly one metric:
+total, overdue, closed, todo, in_progress, or completed. Never count the
+records returned by get_tasks to answer a count question.
+For assignee-scoped counts, pass the supplied ResourceID as assignee_id or
+the exact first/full name as assignee_name; include workspace_id if specified.
+Use get_tasks when the user asks for task records rather than a count. For
+assignee-scoped task records, pass the supplied ResourceID as assignee_id or
+the exact first/full name as assignee_name. For a list of overdue tasks, set
+overdue=True; for an overdue count, use get_task_metrics.
 
 If no tool is required, provide the final answer.
 """

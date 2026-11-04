@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent
@@ -241,14 +242,28 @@ def _section_belongs_to_workspace(section, workspace_id):
 
 
 # get tasks
-def get_tasks(project_id=None, status=None, task_name = None):
-    """Return tasks, optionally filtered by Workspace ID and task status and task_name. 
+def get_tasks(
+    project_id=None,
+    status=None,
+    task_name=None,
+    assignee_id=None,
+    assignee_name=None,
+    return_all=False,
+    overdue=False,
+):
+    """Return tasks filtered by Workspace, status, name, or assignee.
 
     Task records have no Workspace ID. Workspace membership is resolved through
     SectionID, and only consistent Section/Space relationships are included
     when filtering by Workspace.
 
     Task-name matching is case-insensitive and supports partial matches.
+    Assignee IDs and names are exact matches, ignoring case and extra spaces.
+    An assignee name may be the first name or the full "Name LastName".
+    When overdue is true, only closed tasks whose ClosedOn is later than
+    DueDate and whose dates are valid are returned.
+    By default, return at most 10 matches; return_all is for internal callers
+    that need the complete filtered result.
     """
 
     filtered_tasks = tasks
@@ -276,7 +291,7 @@ def get_tasks(project_id=None, status=None, task_name = None):
         ]
 
     if task_name is not None:
-        normalized_name = str(task_name).strip.casefold()
+        normalized_name = str(task_name).strip().casefold()
 
         if not normalized_name:
             return []
@@ -288,7 +303,93 @@ def get_tasks(project_id=None, status=None, task_name = None):
             in str(task.get("TaskName") or "").strip().casefold()
         ]
 
-    return filtered_tasks
+    if assignee_id is not None:
+        normalized_assignee_id = " ".join(str(assignee_id).split()).casefold()
+        if not normalized_assignee_id:
+            raise ValueError("assignee_id cannot be empty.")
+        filtered_tasks = [
+            task
+            for task in filtered_tasks
+            if isinstance(task.get("Assignee"), dict)
+            and " ".join(
+                str(task["Assignee"].get("ResourceID") or "").split()
+            ).casefold() == normalized_assignee_id
+        ]
+
+    if assignee_name is not None:
+        normalized_assignee_name = " ".join(
+            str(assignee_name).split()
+        ).casefold()
+        if not normalized_assignee_name:
+            raise ValueError("assignee_name cannot be empty.")
+
+        def matches_assignee_name(task):
+            assignee = task.get("Assignee")
+            if not isinstance(assignee, dict):
+                return False
+
+            first_name = " ".join(
+                str(assignee.get("Name") or "").split()
+            ).casefold()
+            full_name = " ".join(
+                part
+                for part in (
+                    first_name,
+                    " ".join(
+                        str(assignee.get("LastName") or "").split()
+                    ).casefold(),
+                )
+                if part
+            )
+            return normalized_assignee_name in {first_name, full_name}
+
+        filtered_tasks = [
+            task for task in filtered_tasks if matches_assignee_name(task)
+        ]
+
+    if overdue:
+        filtered_tasks = [
+            task for task in filtered_tasks if _is_task_overdue(task)
+        ]
+
+    return filtered_tasks if return_all else filtered_tasks[:10]
+
+
+def _is_task_overdue(task):
+    if task.get("IsClosed") is not True:
+        return False
+
+    due_date = task.get("DueDate")
+    closed_date = task.get("ClosedOn")
+    if (
+        not isinstance(due_date, str)
+        or not due_date.strip()
+        or not isinstance(closed_date, str)
+        or not closed_date.strip()
+    ):
+        return False
+
+    try:
+        due_at = datetime.fromisoformat(
+            due_date.strip().replace("Z", "+00:00")
+        )
+        closed_at = datetime.fromisoformat(
+            closed_date.strip().replace("Z", "+00:00")
+        )
+    except ValueError:
+        return False
+
+    if due_at.tzinfo is None:
+        due_at = due_at.replace(tzinfo=timezone.utc)
+    else:
+        due_at = due_at.astimezone(timezone.utc)
+
+    if closed_at.tzinfo is None:
+        closed_at = closed_at.replace(tzinfo=timezone.utc)
+    else:
+        closed_at = closed_at.astimezone(timezone.utc)
+
+    return closed_at > due_at
 
 
 def _normalize_task_status(status):
@@ -312,6 +413,89 @@ def _task_belongs_to_workspace(task, workspace_id):
         and task.get("SpaceID") == section_space_id
         and task.get("section_space_id") == section_space_id
     )
+
+
+def get_task_metrics(
+    metric,
+    workspace_id=None,
+    assignee_id=None,
+    assignee_name=None,
+):
+    """Return one task metric count with optional Workspace/assignee filters."""
+    normalized_metric = _normalize_task_status(metric)
+    valid_metrics = {
+        "total",
+        "overdue",
+        "closed",
+        "todo",
+        "in_progress",
+        "completed",
+    }
+    if normalized_metric not in valid_metrics:
+        raise ValueError(
+            "metric must be 'total', 'overdue', 'closed', 'todo', "
+            "'in_progress', or 'completed'."
+        )
+
+    filtered_tasks = get_tasks(project_id=workspace_id, return_all=True)
+
+    if assignee_id is not None:
+        normalized_assignee_id = " ".join(str(assignee_id).split()).casefold()
+        if not normalized_assignee_id:
+            raise ValueError("assignee_id cannot be empty.")
+        filtered_tasks = [
+            task
+            for task in filtered_tasks
+            if isinstance(task.get("Assignee"), dict)
+            and " ".join(
+                str(task["Assignee"].get("ResourceID") or "").split()
+            ).casefold() == normalized_assignee_id
+        ]
+
+    if assignee_name is not None:
+        normalized_assignee_name = " ".join(
+            str(assignee_name).split()
+        ).casefold()
+        if not normalized_assignee_name:
+            raise ValueError("assignee_name cannot be empty.")
+
+        def matches_assignee_name(task):
+            assignee = task.get("Assignee")
+            if not isinstance(assignee, dict):
+                return False
+
+            first_name = " ".join(
+                str(assignee.get("Name") or "").split()
+            ).casefold()
+            full_name = " ".join(
+                part
+                for part in (
+                    first_name,
+                    " ".join(
+                        str(assignee.get("LastName") or "").split()
+                    ).casefold(),
+                )
+                if part
+            )
+            return normalized_assignee_name in {first_name, full_name}
+
+        filtered_tasks = [
+            task for task in filtered_tasks if matches_assignee_name(task)
+        ]
+
+    if normalized_metric == "total":
+        return len(filtered_tasks)
+
+    if normalized_metric == "closed":
+        return sum(task.get("IsClosed") is True for task in filtered_tasks)
+
+    if normalized_metric != "overdue":
+        return sum(
+            _normalize_task_status(task.get("Status", "")) == normalized_metric
+            for task in filtered_tasks
+        )
+
+    return sum(_is_task_overdue(task) for task in filtered_tasks)
 
 
 
